@@ -1,0 +1,17 @@
+#calculator {
+  padding: 10px 0;
+  text-align: center;
+  font-family: monospace;
+  font-size: 24px;
+}
+#calculator p {
+  padding: 2px 0;
+  font-size: 20px;
+}
+
+h1 {
+  padding: 50px 0;
+  text-align: center;
+  font-family: monospace;
+  font-size: 24px;
+}

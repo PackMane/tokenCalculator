@@ -1,0 +1,30 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Token Price Calculator</title>
+    <h1>Token Calculator</h1>
+  </head>
+  <body>
+    <div id="calculator">
+      <p>Input marketcap and current (or max) supply.</p>
+      Marketcap <br /><input
+        type="number"
+        id="amount"
+        name="amount"
+        oninput="calc();"
+      />
+      <br />
+      Supply <br /><input
+        type="number"
+        id="quantity"
+        name="quantity"
+        oninput="calc();"
+      />
+      <br />
+      Token Price <br /><input type="number" id="total" name="total" />
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
